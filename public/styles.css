@@ -1,0 +1,82 @@
+body {
+  height: 100vh;
+  font: 22px Fredoka One;
+  line-height: 1.2em;
+  background: #c5d7bd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  font-family: Fredoka One;
+}
+
+.App-container {
+  width: 95%;
+  min-height: 65vh;
+  background-color: #fff;
+  box-shadow: 0 20px 80px #5b6d5b;
+  position: relative;
+  border-radius: 1em;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.TodoForm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 250px;
+  border: 1px solid #6e7c7c;
+  font-family: lato;
+}
+.ToDo-List {
+  background: #e8e8e8;
+  border-radius: 4px;
+  max-width: 400px;
+  padding: 5px;
+}
+
+.Todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+}
+button {
+  display: inline-block;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: Lato;
+}
+button {
+  background-color: #c5d7bd;
+  border: 2px solid #c5d7bd;
+  color: #435560;
+  font-size: 0.75rem;
+  padding: 5px 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 5px;
+  text-decoration: none;
+}
+button:hover {
+  background-color: #ffee93;
+  border: 2px solid #ffee93;
+  color: #435560;
+}
+.btn {
+  display: inline-block;
+}
